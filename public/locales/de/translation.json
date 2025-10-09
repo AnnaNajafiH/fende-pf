@@ -1,0 +1,118 @@
+{
+  "header": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "projects": "Erfolge",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "name": "Fatemeh Najafi",
+    "title": "Fußball- und Futsaltrainerin",
+    "tagline": "Leidenschaft für Sport, Training und Athletenentwicklung.",
+    "location": "Isfahan, Iran",
+    "button": "Kontakt aufnehmen"
+  },
+  "aboutMe": {
+    "title": "Über mich",
+    "description": "Engagierte Fußball- und Futsaltrainerin mit über fünf Jahren Erfahrung im Coaching von Spielern aller Alters- und Leistungsstufen. Leidenschaftlich darin, Athleten zu motivieren, ihr volles Potenzial zu entfalten, und stets bestrebt, neue Trainingsmethoden und wissenschaftliche Erkenntnisse in die Praxis umzusetzen.",
+    "about": {
+      "subject": "Von der Leidenschaft zum Beruf: Eine Reise im Sport",
+      "intro": "Ich bin Fatemeh Najafi, 29 Jahre alt, Fußball- und Futsaltrainerin aus Isfahan, Iran. Meine Leidenschaft gilt dem Sport und der individuellen Förderung von Athleten auf allen Ebenen.",
+      "background": "Seit 2019 habe ich mit über 50 Fußball- und Futsalspielern gearbeitet, sowohl im Gruppen- als auch im Einzeltraining. Einige meiner Spielerinnen schafften den Sprung in die Nationalmannschaft oder erreichten Erfolge auf Landesebene. Neben meiner praktischen Arbeit bilde ich mich kontinuierlich weiter, um moderne Trainingsmethoden und sportwissenschaftliche Erkenntnisse anzuwenden.",
+      "passion": "Ich kombiniere Fachwissen aus Anatomie, Trainingswissenschaft und Sportpsychologie mit praktischer Erfahrung, um Athleten körperlich und mental zu stärken. Mein Ziel ist es, mich langfristig in der deutschen Sport-Community zu etablieren und dort aktiv zum Fortschritt des Frauenfußballs beizutragen.",
+      "endWords": "Ich freue mich über jede Möglichkeit zum fachlichen Austausch, zur Zusammenarbeit oder zur Weiterentwicklung im internationalen Sportumfeld.",
+      "technologies": "Fachgebiete & Kompetenzen",
+      "button": "Kontakt aufnehmen"
+    }
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "languages": "Sprachen",
+    "frameworks": "Trainingsmethoden",
+    "databases": "Fachwissen",
+    "tools": "Werkzeuge",
+    "other": "Soft Skills",
+    "text1": "Die Fähigkeiten und Kenntnisse, die ich einsetze, um Athleten zu fördern und sportliche Leistung zu steigern.",
+    "text2": "Stets bestrebt, Neues zu lernen und Trainingsmethoden weiterzuentwickeln.",
+    "button": "Meine Erfolge ansehen"
+  },
+  "projects": {
+    "title": "Erfolge & Coaching-Erfahrungen",
+    "viewAll": "Alle Erfolge ansehen",
+    "viewDetails": "Details ansehen",
+    "viewCode": "Mehr erfahren",
+    "liveSite": "Bildergalerie",
+    "text1": "Eine Auswahl meiner bisherigen Trainerstationen, individuellen Coaching-Projekte und sportlichen Erfolge.",
+    "text2": "Mehr über meine Arbeit als Trainerin:",
+    "shortDescription": [
+      "Vorbereitung einer Spielerin, die später in die Nationalmannschaft eingeladen wurde (2023–2024).",
+      "Individuelles Coaching von zwei Spielern mit Erfolgen auf nationaler Ebene.",
+      "Ausbildung von acht Akademiespielern, die Landesmeisterschaften erreichten.",
+      "Privatunterricht für über 25 Futsal-Spielerinnen.",
+      "Trainerin an einer Fußball- und Futsal-Akademie mit über 50 Spielern im Schulfußball."
+    ]
+  },
+  "education": {
+    "title": "Ausbildung & Weiterbildung"
+  },
+  "certificates": {
+    "title": "Zertifikate & Fortbildungen",
+    "viewCertificate": "Zertifikat ansehen"
+  },
+  "certificatesList": {
+    "1": {
+      "title": "Futsal-Trainerlizenz Stufe 1",
+      "description": "Offizielle Trainerlizenz (10.–17. Februar 2019, Isfahan, Iran)"
+    },
+    "2": {
+      "title": "Teilnahme an über 30 Webinaren zu Sportwissenschaft & Coaching",
+      "description": "Themen wie Talententwicklung, Trainingsplanung, Sportpsychologie, Kindertraining, Verletzungsprävention und mehr (2020–2024)."
+    },
+    "3": {
+      "title": "Fortbildung – Widerstandstraining bei Kindern",
+      "description": "Webinar 2024: Entwicklung altersgerechter Trainingsprogramme."
+    },
+    "4": {
+      "title": "Fortbildung – Genetisch basiertes Talentmanagement",
+      "description": "Webinar 2023: Identifikation und Förderung sportlicher Talente."
+    },
+    "5": {
+      "title": "Fortbildung – Trainingssysteme im Bodybuilding & Rehabilitation",
+      "description": "Webinar 2022: Korrektive Übungen und Bewegungsmechanik."
+    }
+  },
+  "awards": {
+    "title": "Sportliche Erfolge",
+    "list": [
+      "1. Platz – Futsal-Turnier der Stadtverwaltungen (25.06.2016, Isfahan)",
+      "1. Platz – Vier-Nationen-Futsalturnier (18.10.2016, Isfahan)",
+      "1. Platz – Frauen-Futsal-Turnier zum Weltfrauentag (20.04.2017, Isfahan)",
+      "1. Platz – Kleinfeld-Futsal-Turnier (04.02.2017, Isfahan)",
+      "2. Platz – Futsal-Turnier der Stadtverwaltungen (03.03.2018, Isfahan)",
+      "3. Platz – Futsal-Meisterschaft der Provinz Isfahan (09.02.2014)"
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "name": "Name",
+    "email": "E-Mail",
+    "location": "Ort",
+    "cityCountry": "Isfahan, Iran",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut.",
+    "text1": "Lass uns in Kontakt treten",
+    "text2": "Ich freue mich über neue Kontakte, Kooperationen und Möglichkeiten im Sportbereich – besonders im internationalen Umfeld.",
+    "followMe": "Folge mir auf:"
+  },
+  "language": {
+    "select": "Sprache auswählen",
+    "en": "Englisch",
+    "de": "Deutsch",
+    "fa": "Persisch"
+  },
+  "footer": {
+    "rightsReserved": "Alle Rechte vorbehalten."
+  }
+}

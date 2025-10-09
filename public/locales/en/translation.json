@@ -1,0 +1,111 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Experience",
+    "education": "Education",
+    "certificates": "Certificates",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Fatemeh Najafi",
+    "title": "Football & Futsal Coach",
+    "tagline": "Training minds and bodies for peak performance.",
+    "location": "Isfahan, Iran",
+    "email": "fatemeh.najafi.h@gmail.com",
+    "button": "Get In Touch"
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "description": "Passionate football and futsal coach with experience training athletes of all ages and skill levels. I am deeply committed to improving performance, applying modern training science, and fostering discipline and motivation among players. My goal is to contribute to the development of women’s football internationally and become part of the professional sports community in Germany.",
+    "about": {
+      "subject": "From Passion to Profession: A Journey in Sports Coaching",
+      "intro": "Hi, I’m Fatemeh Najafi, a 29-year-old football and futsal coach from Isfahan, Iran. My life revolves around sport — helping athletes reach their goals and building strong, confident teams.",
+      "background": "Since 2019, I have worked with more than 50 athletes, including children, youth, and adults, through academy and private training. Some of my players advanced to provincial championships and even the national team. I continuously expand my knowledge through professional courses and webinars on sports science, fitness, and psychology.",
+      "passion": "My expertise includes anatomy, fitness training, motor learning, and sports psychology. I strive to combine science-based methods with motivation and teamwork to help each athlete achieve sustainable success.",
+      "endWords": "I am always open to new collaborations, international coaching opportunities, and exchanges with sports professionals from around the world. Let’s connect and grow together!",
+      "technologies": "Fields of Expertise",
+      "button": "Contact Me"
+    }
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "languages": "Languages",
+    "frameworks": "Training Methods",
+    "databases": "Sports Knowledge",
+    "tools": "Tools",
+    "other": "Soft Skills",
+    "text1": "The skills and methods I use to guide athletes toward excellence — both physically and mentally.",
+    "text2": "Always learning, evolving, and integrating new training techniques.",
+    "button": "View My Experience"
+  },
+  "projects": {
+    "title": "Coaching Experience & Achievements",
+    "viewAll": "View All",
+    "viewDetails": "View Details",
+    "viewCode": "More Info",
+    "liveSite": "Gallery",
+    "text1": "A selection of my work as a football and futsal coach, highlighting training success stories and competitive results.",
+    "text2": "Want to learn more about my coaching journey?",
+    "shortDescription": [
+      "Prepared a player who was later invited to the national team (2023–2024).",
+      "Trained two individual players who achieved national-level success.",
+      "Coached eight academy players who later played at the provincial level.",
+      "Conducted private futsal lessons for over 25 players (2020–2024).",
+      "Worked as a coach at a football and futsal academy, teaching over 50 players in school football programs."
+    ]
+  },
+  "education": {
+    "title": "Education & Professional Development"
+  },
+  "certificates": {
+    "title": "Certificates & Courses",
+    "viewCertificate": "View Certificate"
+  },
+  "certificatesList": {
+    "1": {
+      "title": "Futsal Coaching License – Level 1",
+      "description": "Official coaching certification, Isfahan, Iran (10–17 February 2019)."
+    },
+    "2": {
+      "title": "Over 30 Webinars on Sports Science & Coaching",
+      "description": "Topics included fitness, injury prevention, sports psychology, talent development, and training methodology (2020–2024)."
+    },
+    "3": {
+      "title": "Webinar – Resistance Training for Children (2024)",
+      "description": "Focused on age-appropriate strength and conditioning for youth athletes."
+    },
+    "4": {
+      "title": "Webinar – Genetic Talent Management (2023)",
+      "description": "Techniques for identifying and developing athletic potential using scientific methods."
+    },
+    "5": {
+      "title": "Webinar – Corrective Exercises & Training Systems (2022)",
+      "description": "Focused on functional training, movement mechanics, and rehabilitation exercises."
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name",
+    "email": "Email",
+    "location": "Location",
+    "cityCountry": "Isfahan, Iran",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again.",
+    "text1": "Let's Connect",
+    "text2": "I’m always open to new opportunities, collaborations, and professional exchange in sports and coaching. Feel free to reach out!",
+    "followMe": "Follow Me on:"
+  },
+  "language": {
+    "select": "Select Language",
+    "en": "English",
+    "de": "German",
+    "fa": "Persian"
+  },
+  "footer": {
+    "rightsReserved": "All rights reserved."
+  }
+}
