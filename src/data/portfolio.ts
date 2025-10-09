@@ -205,21 +205,5 @@ export const education = [
     graduationDate: "2020–2024",
     description:
       "Topics included strength & conditioning, injury prevention, sports psychology, and youth development.",
-  },
-  {
-    id: 3,
-    degree: "Master of Science in Organic Chemistry",
-    school: "University of Kashan",
-    location: "Kashan, Iran",
-    graduationDate: "Oct 2013",
-    description: "",
-  },
-  {
-    id: 4,
-    degree: "Bachelor of Science in Chemistry",
-    school: "University of Ahvaz",
-    location: "Ahvaz, Iran",
-    graduationDate: "Jun 2010",
-    description: "",
-  },
+  }
 ];
