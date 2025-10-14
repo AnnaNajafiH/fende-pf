@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
             to="/"
             className="flex flex-col items-start group transition-colors"
           >
-            <div className="text-2xl font-bold text-gray-800 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+            <div className="text-2xl font-bold text-blue-500 dark:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-300 transition-colors">
               {personalInfo.name === "Nahid Najafi"
                 ? "Na•N"
                 : personalInfo.name
@@ -44,7 +44,7 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
                     .map((name: string) => name[0])
                     .join("")}
             </div>
-            <div className="w-9 h-px bg-primary-500 my-1"></div>
+            <div className="w-9 h-px bg-blue-500 my-1"></div>
             <div
               className="text-xxs text-gray-500 dark:text-gray-400 font-medium tracking-wide"
               style={{ fontSize: "0.5rem" }}
