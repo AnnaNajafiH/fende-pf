@@ -23,6 +23,7 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
     { name: t('header.home'), path: '/' },
     { name: t('header.about'), path: '/about' },
     { name: t('header.projects'), path: '/projects' },
+    { name: t('header.certificates'), path: '/certificates' },
     { name: t('header.contact'), path: '/contact' },
   ];
 

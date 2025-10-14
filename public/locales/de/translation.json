@@ -2,7 +2,10 @@
   "header": {
     "home": "Startseite",
     "about": "Über mich",
-    "projects": "Erfolge",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "education": "Ausbildung",
+    "certificates": "Zertifikate",
     "contact": "Kontakt"
   },
   "hero": {
