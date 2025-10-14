@@ -61,7 +61,17 @@
   },
   "certificates": {
     "title": "Certificates & Courses",
-    "viewCertificate": "View Certificate"
+    "viewCertificate": "View Certificate",
+    "showing": "Showing",
+    "of": "of",
+    "entries": "certificates",
+    "subtitle": "Professional development and continuous learning to improve coaching skills",
+    "footer": "Continuous education and professional development in sports science and coaching",
+    "lastUpdated": "Last updated: October 2025"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
   },
   "certificatesList": {
     "1": {

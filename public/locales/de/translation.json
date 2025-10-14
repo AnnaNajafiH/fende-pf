@@ -57,7 +57,17 @@
   },
   "certificates": {
     "title": "Zertifikate & Fortbildungen",
-    "viewCertificate": "Zertifikat ansehen"
+    "viewCertificate": "Zertifikat ansehen",
+    "showing": "Anzeige",
+    "of": "von",
+    "entries": "Zertifikaten",
+    "subtitle": "Professionelle Entwicklung und kontinuierliche Weiterbildung zur Verbesserung der Trainingskompetenzen",
+    "footer": "Ständige Weiterbildung und berufliche Entwicklung in Sportwissenschaft und Coaching",
+    "lastUpdated": "Zuletzt aktualisiert: Oktober 2025"
+  },
+  "pagination": {
+    "previous": "Zurück",
+    "next": "Weiter"
   },
   "certificatesList": {
     "1": {
