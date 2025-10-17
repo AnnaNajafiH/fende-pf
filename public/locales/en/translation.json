@@ -38,7 +38,38 @@
     "other": "Soft Skills",
     "text1": "The skills and methods I use to guide athletes toward excellence — both physically and mentally.",
     "text2": "Always learning, evolving, and integrating new training techniques.",
-    "button": "View My Experience"
+    "button": "View My Experience",
+    "items": {
+      "languages": ["Persian (Native)", "English (B1)", "German (B1)"],
+      "frameworks": [
+        "Technical Training",
+        "Tactical Development",
+        "Match Preparation",
+        "Youth Training Methods",
+        "Small-Sided Games"
+      ],
+      "databases": [
+        "Sports Psychology",
+        "Athletic Performance",
+        "Injury Prevention",
+        "Nutrition Basics",
+        "Physical Development"
+      ],
+      "tools": [
+        "Video Analysis",
+        "Training Equipment",
+        "Fitness Testing",
+        "Performance Tracking",
+        "Match Statistics"
+      ],
+      "other": [
+        "Team Leadership",
+        "Communication",
+        "Motivation",
+        "Event Organization",
+        "Player Mentoring"
+      ]
+    }
   },
   "projects": {
     "title": "Coaching Experience & Achievements",
@@ -103,6 +134,7 @@
     "cityCountry": "Isfahan, Iran",
     "message": "Message",
     "send": "Send Message",
+    "sending": "Sending...",
     "success": "Message sent successfully!",
     "error": "Error sending message. Please try again.",
     "text1": "Let's Connect",

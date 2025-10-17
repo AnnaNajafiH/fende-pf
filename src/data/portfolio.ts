@@ -35,19 +35,8 @@ export const personalInfo = {
   },
 };
 
-export const skills = {
-  languages: ["Persian", "English", "German (Beginner)"],
-  frameworks: ["Football Training Programs", "Futsal Training Plans"],
-  databases: ["Player Performance Records", "Match Statistics"],
-  tools: ["Video Analysis Software", "GPS Tracking", "Heart Rate Monitors"],
-  other: [
-    "Team Management",
-    "Leadership & Communication",
-    "Event Planning",
-    "Motivational Techniques",
-    "Strength & Conditioning Programs",
-  ],
-};
+// Skills have been moved to translation files for better localization
+// The original skills data has been removed from here
 
 export const projects = [
   {
@@ -205,5 +194,5 @@ export const education = [
     graduationDate: "2020–2024",
     description:
       "Topics included strength & conditioning, injury prevention, sports psychology, and youth development.",
-  }
+  },
 ];

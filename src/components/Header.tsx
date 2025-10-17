@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { FaBars, FaTimes, FaMoon, FaSun, FaLinkedin } from 'react-icons/fa';
 import { personalInfo } from '../data/portfolio';
 import LanguageSelector from './LanguageSelector';
+import logoImage from '../assets/images/fende2.jpg';
 
 interface HeaderProps {
   isDarkMode: boolean;
@@ -34,22 +35,24 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
           {/* Logo */}
           <Link
             to="/"
-            className="flex flex-col items-start group transition-colors"
+            className="flex items-center group transition-colors"
           >
-            <div className="text-2xl font-bold text-blue-500 dark:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-300 transition-colors">
-              {personalInfo.name === "Nahid Najafi"
-                ? "Na•N"
-                : personalInfo.name
-                    .split(" ")
-                    .map((name: string) => name[0])
-                    .join("")}
+            <div className="w-10 h-10 mr-3 overflow-hidden rounded-full border-2 border-blue-400 dark:border-blue-600 shadow-md">
+              <img 
+                src={logoImage} 
+                alt={personalInfo.name} 
+                className="w-full h-full object-cover"
+              />
             </div>
-            <div className="w-9 h-px bg-blue-500 my-1"></div>
-            <div
-              className="text-xxs text-gray-500 dark:text-gray-400 font-medium tracking-wide"
-              style={{ fontSize: "0.5rem" }}
-            >
-              Football Trainer
+            <div className="flex flex-col">
+              <div className="text-lg font-bold text-blue-500 dark:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-300 transition-colors">
+                {personalInfo.name.split(" ").map ((n) => n[0]).join("")}
+              </div>
+              <div
+                className="text-[10px] text-gray-500 dark:text-gray-400 font-light border-t border-gray-300 dark:border-gray-600 pt-0.5 group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors"
+              >
+                Football Trainer
+              </div>
             </div>
           </Link>
 

@@ -37,7 +37,42 @@
     "other": "Soft Skills",
     "text1": "Die Fähigkeiten und Kenntnisse, die ich einsetze, um Athleten zu fördern und sportliche Leistung zu steigern.",
     "text2": "Stets bestrebt, Neues zu lernen und Trainingsmethoden weiterzuentwickeln.",
-    "button": "Meine Erfolge ansehen"
+    "button": "Meine Erfolge ansehen",
+    "items": {
+      "languages": [
+        "Persisch (Muttersprache)",
+        "Englisch (B1)",
+        "Deutsch (B1)"
+      ],
+      "frameworks": [
+        "Technisches Training",
+        "Taktische Entwicklung",
+        "Spielvorbereitung",
+        "Jugendtrainingsmethoden",
+        "Kleinfeld-Spiele"
+      ],
+      "databases": [
+        "Sportpsychologie",
+        "Athletische Leistung",
+        "Verletzungsprävention",
+        "Ernährungsgrundlagen",
+        "Körperliche Entwicklung"
+      ],
+      "tools": [
+        "Videoanalyse",
+        "Trainingsausrüstung",
+        "Fitnesstests",
+        "Leistungsverfolgung",
+        "Spielstatistiken"
+      ],
+      "other": [
+        "Teamführung",
+        "Kommunikation",
+        "Motivation",
+        "Veranstaltungsorganisation",
+        "Spielerbetreuung"
+      ]
+    }
   },
   "projects": {
     "title": "Erfolge & Coaching-Erfahrungen",
@@ -113,6 +148,7 @@
     "cityCountry": "Isfahan, Iran",
     "message": "Nachricht",
     "send": "Nachricht senden",
+    "sending": "Senden...",
     "success": "Nachricht erfolgreich gesendet!",
     "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut.",
     "text1": "Lass uns in Kontakt treten",
