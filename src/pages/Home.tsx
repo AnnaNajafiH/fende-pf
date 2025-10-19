@@ -6,6 +6,7 @@ import Projects from "../components/ProjectsSection";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Certificates from "../components/Certificates";
+import Champions from "../components/Champions";
 import Contact from "../components/ContactSection";
 
 const Home: React.FC = () => {
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
       <Experience />
       <Education />
       <Certificates />
+      <Champions />
       <Contact />
     </div>
   );

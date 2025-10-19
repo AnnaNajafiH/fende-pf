@@ -6,6 +6,7 @@
     "projects": "Experience",
     "education": "Education",
     "certificates": "Certificates",
+    "champions": "Awards",
     "contact": "Contact"
   },
   "hero": {
@@ -97,7 +98,13 @@
     "of": "of",
     "entries": "certificates",
     "subtitle": "Professional development and continuous learning to improve coaching skills",
-    "footer": "Continuous education and professional development in sports science and coaching",
+    "footer": "Continuous education and professional development in sports science and coaching"
+  },
+  "champions": {
+    "title": "Championship Awards",
+    "subtitle": "Celebrating achievements and victories in football and futsal tournaments",
+    "viewDetails": "View Details",
+    "closeButton": "Close",
     "lastUpdated": "Last updated: October 2025"
   },
   "pagination": {

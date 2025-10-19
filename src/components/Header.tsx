@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { FaBars, FaTimes, FaMoon, FaSun, FaLinkedin } from 'react-icons/fa';
-import { personalInfo } from '../data/portfolio';
-import LanguageSelector from './LanguageSelector';
-import logoImage from '../assets/images/fende2.jpg';
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { FaBars, FaTimes, FaMoon, FaSun, FaLinkedin } from "react-icons/fa";
+import { personalInfo } from "../data/portfolio";
+import LanguageSelector from "./LanguageSelector";
+import logoImage from "../assets/images/fende2.jpg";
 
 interface HeaderProps {
   isDarkMode: boolean;
@@ -21,11 +21,12 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
   };
 
   const navigationLinks = [
-    { name: t('header.home'), path: '/' },
-    { name: t('header.about'), path: '/about' },
-    { name: t('header.projects'), path: '/projects' },
-    { name: t('header.certificates'), path: '/certificates' },
-    { name: t('header.contact'), path: '/contact' },
+    { name: t("header.home"), path: "/" },
+    { name: t("header.about"), path: "/about" },
+    { name: t("header.projects"), path: "/projects" },
+    { name: t("header.certificates"), path: "/certificates" },
+    { name: t("header.champions"), path: "/champions" },
+    { name: t("header.contact"), path: "/contact" },
   ];
 
   return (
@@ -33,24 +34,22 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
       <div className="container mx-auto px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link
-            to="/"
-            className="flex items-center group transition-colors"
-          >
+          <Link to="/" className="flex items-center group transition-colors">
             <div className="w-10 h-10 mr-3 overflow-hidden rounded-full border-2 border-blue-400 dark:border-blue-600 shadow-md">
-              <img 
-                src={logoImage} 
-                alt={personalInfo.name} 
+              <img
+                src={logoImage}
+                alt={personalInfo.name}
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="flex flex-col">
               <div className="text-lg font-bold text-blue-500 dark:text-blue-400 group-hover:text-blue-600 dark:group-hover:text-blue-300 transition-colors">
-                {personalInfo.name.split(" ").map ((n) => n[0]).join("")}
+                {personalInfo.name
+                  .split(" ")
+                  .map((n) => n[0])
+                  .join("")}
               </div>
-              <div
-                className="text-[10px] text-gray-500 dark:text-gray-400 font-light border-t border-gray-300 dark:border-gray-600 pt-0.5 group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors"
-              >
+              <div className="text-[10px] text-gray-500 dark:text-gray-400 font-light border-t border-gray-300 dark:border-gray-600 pt-0.5 group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors">
                 Football Trainer
               </div>
             </div>
