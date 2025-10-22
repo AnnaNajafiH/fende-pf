@@ -167,7 +167,25 @@
     "subtitle": "Erfolge und Siege in Fußball- und Futsalturnieren",
     "viewDetails": "Details anzeigen",
     "closeButton": "Schließen",
-    "lastUpdated": "Letztes Update: Oktober 2025"
+    "lastUpdated": "Letztes Update: Oktober 2025",
+    "awards": {
+      "thirdPlace": {
+        "title": "3. Platz",
+        "description": "Dritter Platz beim Futsal-Turnier, Zehn-Tage-Morgenröte-Pokal."
+      },
+      "firstPlaceMunicipality": {
+        "title": "1. Platz",
+        "description": "Erster Platz beim Futsal-Turnier der Stadtverwaltung Isfahan."
+      },
+      "womensDay": {
+        "title": "1. Platz",
+        "description": "Erster Platz bei der Futsal-Meisterschaft zum Weltfrauentag."
+      },
+      "secondPlace": {
+        "title": "2. Platz",
+        "description": "Zweiter Platz beim Futsal-Turnier der Stadtverwaltung Isfahan."
+      }
+    }
   },
   "footer": {
     "rightsReserved": "Alle Rechte vorbehalten."

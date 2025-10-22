@@ -153,7 +153,25 @@
     "subtitle": "جشن موفقیت‌ها و پیروزی‌ها در مسابقات فوتبال و فوتسال",
     "viewDetails": "مشاهده جزئیات",
     "closeButton": "بستن",
-    "lastUpdated": "آخرین بروزرسانی: اکتبر 2025"
+    "lastUpdated": "آخرین بروزرسانی: اکتبر 2025",
+    "awards": {
+      "thirdPlace": {
+        "title": "مقام سوم",
+        "description": "مقام سوم در مسابقات فوتسال، جام دهه فجر."
+      },
+      "firstPlaceMunicipality": {
+        "title": "مقام اول",
+        "description": "مقام اول در مسابقات فوتسال شهرداری اصفهان."
+      },
+      "womensDay": {
+        "title": "مقام اول",
+        "description": "مقام اول در مسابقات فوتسال روز جهانی زن."
+      },
+      "secondPlace": {
+        "title": "مقام دوم",
+        "description": "مقام دوم در مسابقات فوتسال شهرداری اصفهان."
+      }
+    }
   },
   "footer": {
     "rightsReserved": "تمامی حقوق محفوظ است."

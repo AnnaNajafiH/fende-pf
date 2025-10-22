@@ -5,8 +5,9 @@ import type { ChampionAward } from '../data/champions';
 import { FaTrophy, FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Champions: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [selectedAward, setSelectedAward] = useState<ChampionAward | null>(null);
+  
 
   return (
     <section id="champions" className="py-20 bg-gradient-to-br from-blue-50 to-primary-50 dark:from-gray-900 dark:to-gray-800">
@@ -34,7 +35,7 @@ const Champions: React.FC = () => {
                 <div className="h-48 overflow-hidden">
                   <img 
                     src={award.image} 
-                    alt={award.title} 
+                    alt={t(award.titleKey)} 
                     className="w-full h-full object-contain mt-2 hover:scale-105 transition-transform duration-300"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
@@ -46,11 +47,11 @@ const Champions: React.FC = () => {
                   <div className="flex items-center mb-2">
                     <FaTrophy className="text-yellow-500 mr-2" />
                     <h3 className="text-xl font-bold text-gray-800 dark:text-white">
-                      {award.title}
+                      {t(award.titleKey)}
                     </h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-2">
-                    {award.description}
+                    {t(award.descriptionKey)}
                   </p>
                   <div className="flex justify-between text-sm text-gray-500 dark:text-gray-400">
                     <div className="flex items-center">
@@ -59,7 +60,7 @@ const Champions: React.FC = () => {
                     </div>
                     <div className="flex items-center">
                       <FaMapMarkerAlt className="mr-1" />
-                      {award.location}
+                      {award.location[i18n.language as keyof typeof award.location] || award.location.en}
                     </div>
                   </div>
                 </div>
@@ -74,7 +75,7 @@ const Champions: React.FC = () => {
                 <div className="relative">
                   <img 
                     src={selectedAward.image} 
-                    alt={selectedAward.title}
+                    alt={t(selectedAward.titleKey)}
                     className="w-full h-64 mt-2 object-contain"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
@@ -94,11 +95,11 @@ const Champions: React.FC = () => {
                   <div className="flex items-center mb-4">
                     <FaTrophy className="text-yellow-500 mr-3 text-2xl" />
                     <h3 className="text-2xl font-bold text-gray-800 dark:text-white">
-                      {selectedAward.title}
+                      {t(selectedAward.titleKey)}
                     </h3>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300 mb-6">
-                    {selectedAward.description}
+                    {t(selectedAward.descriptionKey)}
                   </p>
                   <div className="flex justify-between text-gray-500 dark:text-gray-400 mb-4">
                     <div className="flex items-center">
@@ -107,7 +108,7 @@ const Champions: React.FC = () => {
                     </div>
                     <div className="flex items-center">
                       <FaMapMarkerAlt className="mr-2" />
-                      <span>{selectedAward.location}</span>
+                      <span>{selectedAward.location[i18n.language as keyof typeof selectedAward.location] || selectedAward.location.en}</span>
                     </div>
                   </div>
                   <button 

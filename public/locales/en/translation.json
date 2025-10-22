@@ -105,7 +105,25 @@
     "subtitle": "Celebrating achievements and victories in football and futsal tournaments",
     "viewDetails": "View Details",
     "closeButton": "Close",
-    "lastUpdated": "Last updated: October 2025"
+    "lastUpdated": "Last updated: October 2025",
+    "awards": {
+      "thirdPlace": {
+        "title": "3rd Place",
+        "description": "Third Place in the Futsal Tournament, Ten-Day Dawn Cup."
+      },
+      "firstPlaceMunicipality": {
+        "title": "1st Place",
+        "description": "First Place in the Futsal Tournament of the Isfahan Municipality."
+      },
+      "womensDay": {
+        "title": "1st Place",
+        "description": "First Place in the Women's Day Futsal Championship."
+      },
+      "secondPlace": {
+        "title": "2nd Place",
+        "description": "Second Place in the Futsal Tournament of the Isfahan Municipality."
+      }
+    }
   },
   "pagination": {
     "previous": "Previous",
