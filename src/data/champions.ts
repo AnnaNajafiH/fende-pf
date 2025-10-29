@@ -25,7 +25,7 @@ export const championAwards: ChampionAward[] = [
     location: {
       en: "Isfahan, Iran",
       de: "Isfahan, Iran",
-      fa: "اصفهان، ایران"
+      fa: "اصفهان، ایران",
     },
     image: champion1,
   },
@@ -37,7 +37,7 @@ export const championAwards: ChampionAward[] = [
     location: {
       en: "Isfahan, Iran",
       de: "Isfahan, Iran",
-      fa: "اصفهان، ایران"
+      fa: "اصفهان، ایران",
     },
     image: champion2,
   },
@@ -49,7 +49,7 @@ export const championAwards: ChampionAward[] = [
     location: {
       en: "Isfahan, Iran",
       de: "Isfahan, Iran",
-      fa: "اصفهان، ایران"
+      fa: "اصفهان، ایران",
     },
     image: champion3,
   },
@@ -61,8 +61,8 @@ export const championAwards: ChampionAward[] = [
     location: {
       en: "Isfahan, Iran",
       de: "Isfahan, Iran",
-      fa: "اصفهان، ایران"
+      fa: "اصفهان، ایران",
     },
     image: champion4,
-  }
+  },
 ];
