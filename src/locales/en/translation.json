@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "About",
     "skills": "Skills",
-    "projects": "Experience",
+    "experience": "Experience",
     "education": "Education",
     "certificates": "Certificates",
     "champions": "Awards",
@@ -73,7 +73,7 @@
     }
   },
   "projects": {
-    "title": "Coaching Experience & Achievements",
+    "title": "Coaching Experience",
     "viewAll": "View All",
     "viewDetails": "View Details",
     "viewCode": "More Info",

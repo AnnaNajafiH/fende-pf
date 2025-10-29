@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, toggleDarkMode }) => {
   const navigationLinks = [
     { name: t("header.home"), path: "/" },
     { name: t("header.about"), path: "/about" },
-    { name: t("header.projects"), path: "/projects" },
+    { name: t("header.experience"), path: "/Experience" },
     { name: t("header.certificates"), path: "/certificates" },
     { name: t("header.champions"), path: "/champions" },
     { name: t("header.contact"), path: "/contact" },

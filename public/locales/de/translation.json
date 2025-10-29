@@ -3,7 +3,7 @@
     "home": "Startseite",
     "about": "Über mich",
     "skills": "Fähigkeiten",
-    "projects": "Projekte",
+    "experience": "Erfahrung",
     "education": "Ausbildung",
     "certificates": "Zertifikate",
     "champions": "Auszeichnungen",
@@ -76,7 +76,7 @@
     }
   },
   "projects": {
-    "title": "Erfolge & Coaching-Erfahrungen",
+    "title": "Coaching-Erfahrungen",
     "viewAll": "Alle Erfolge ansehen",
     "viewDetails": "Details ansehen",
     "viewCode": "Mehr erfahren",

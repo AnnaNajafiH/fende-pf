@@ -3,7 +3,7 @@
     "home": "خانه",
     "about": "درباره من",
     "skills": "مهارت‌ها",
-    "projects": "تجربه‌ها",
+    "experience": "تجربه‌ها",
     "education": "تحصیلات",
     "certificates": "گواهینامه‌ها",
     "champions": "افتخارات",
@@ -73,7 +73,7 @@
     }
   },
   "projects": {
-    "title": "تجربه‌ها و دستاوردها",
+    "title": "تجربه‌ها ",
     "viewAll": "مشاهده همه",
     "viewDetails": "جزئیات",
     "viewCode": "اطلاعات بیشتر",

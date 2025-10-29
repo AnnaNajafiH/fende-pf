@@ -1,7 +1,4 @@
-import futsalTrainingImage from "../assets/images/fende2.jpg";
 import footballCampImage from "../assets/images/fende2.jpg";
-import trophyImage from "../assets/images/fende2.jpg";
-import coachingWorkshopImage from "../assets/images/fende2.jpg";
 
 export const personalInfo = {
   name: "Fatemeh Najafi",
@@ -41,158 +38,130 @@ export const personalInfo = {
 export const projects = [
   {
     id: 1,
-    name: "Youth Football Academy Training Program",
+    name: "Preparation of a Football Player for the National Team",
     shortDescription:
-      "Comprehensive training program for young football players (ages 10-16).",
+      "Individual training program for a player who was later invited to join the national team.",
     description:
-      "Designed and implemented a full training curriculum for youth football players, focusing on skill development, tactical understanding, physical conditioning, and teamwork.",
-    detailedDescription: `This program included technical drills, game simulations, physical fitness exercises, and sports psychology sessions. Regular assessments were conducted to monitor player progress, identify strengths and weaknesses, and tailor personalized training plans.  
-Some participants advanced to regional and national competitions as a result of this program.`,
-    features: [
-      "Technical skill development",
-      "Teamwork and tactical drills",
-      "Physical conditioning & endurance training",
-      "Player evaluation & performance tracking",
-      "Sports psychology workshops",
-    ],
-    challenges: [
-      "Adapting training plans to players of varying skill levels",
-      "Maintaining motivation and engagement over a long season",
-      "Integrating scientific methods with practical training",
-    ],
-    technologies: ["Training software", "Video analysis", "GPS trackers"],
-    githubUrl: "",
-    liveUrl: "",
+      "Developed and conducted a personalized training plan focused on technical skills, tactical awareness, and physical conditioning for a promising player who was later selected for the Iranian national team.",
     image: footballCampImage,
     gallery: [footballCampImage],
-    status: "Ongoing",
-    duration: "6 months",
+    status: "Completed",
+    duration: "2022–2024",
+    location: "Isfahan, Iran",
   },
   {
     id: 2,
-    name: "Futsal Advanced Coaching Program",
+    name: "Preparation of Eight Academy Players for Provincial Competitions",
     shortDescription:
-      "Specialized futsal training program for competitive players.",
+      "Trained eight academy players who later achieved success at the provincial level.",
     description:
-      "Developed advanced futsal training routines including tactical strategies, small-sided games, and position-specific drills.",
-    detailedDescription: `This program was tailored for competitive futsal athletes, emphasizing rapid decision-making, agility, and teamwork. Included video analysis and individualized coaching sessions. Many participants achieved top rankings in local futsal leagues.`,
-    features: [
-      "Tactical & strategic training",
-      "Position-specific drills",
-      "Agility & speed improvement",
-      "Match analysis & feedback",
-    ],
-    challenges: [
-      "Individualizing coaching for players at different skill levels",
-    ],
-    technologies: [
-      "Video analysis",
-      "Heart rate monitoring",
-      "Performance tracking software",
-    ],
-    githubUrl: "",
-    liveUrl: "",
-    image: futsalTrainingImage,
-    gallery: [futsalTrainingImage],
+      "Planned and led specialized training sessions for eight young academy players, emphasizing tactical understanding, coordination, and teamwork. Several players went on to compete successfully in provincial tournaments.",
+    image: footballCampImage,
+    gallery: [footballCampImage],
     status: "Completed",
-    duration: "3 months",
+    duration: "2023–2024",
+    location: "Isfahan, Iran",
   },
   {
     id: 3,
-    name: "Women's Football Workshop",
+    name: "Individual Coaching of National-Level Players",
     shortDescription:
-      "Workshop to enhance female participation and skill development in football.",
+      "Coached two individual players who achieved national-level success.",
     description:
-      "Conducted a multi-day workshop aimed at promoting women's football, skill improvement, and fostering a supportive team environment.",
-    detailedDescription: `Focused on technical drills, tactical understanding, team cohesion, and confidence-building. Participants received guidance on maintaining fitness, nutrition, and mental preparation for matches.`,
-    features: [
-      "Female player development",
-      "Confidence-building sessions",
-      "Tactical and technical training",
-      "Teamwork & communication workshops",
-    ],
-    challenges: [
-      "Encouraging participation and motivation among female athletes",
-    ],
-    technologies: ["Video analysis", "Training apps"],
-    githubUrl: "",
-    liveUrl: "",
-    image: coachingWorkshopImage,
-    gallery: [coachingWorkshopImage],
+      "Provided personalized technical and mental coaching for two advanced players, focusing on performance improvement and competitive readiness for national tournaments.",
+    image: footballCampImage,
+    gallery: [footballCampImage],
     status: "Completed",
-    duration: "1 week",
+    duration: "2023–2024",
+    location: "Isfahan, Iran",
   },
   {
     id: 4,
-    name: "Tournament Coaching & Achievements",
+    name: "Private Training for Futsal Players",
     shortDescription:
-      "Guided athletes to participate and win in regional and national tournaments.",
+      "Conducted private sessions for more than 25 futsal players.",
     description:
-      "Prepared athletes for competitions, focusing on strategy, physical conditioning, and mental readiness.",
-    detailedDescription: `Included personalized coaching, match analysis, and goal-setting to maximize performance. Achievements include top rankings in provincial championships and invitations to national teams.`,
-    features: [
-      "Tournament preparation",
-      "Match strategy planning",
-      "Player performance monitoring",
-      "Winning provincial and national level titles",
-    ],
-    challenges: ["Preparing athletes for high-pressure matches"],
-    technologies: ["Match analysis software", "Performance tracking apps"],
-    githubUrl: "",
-    liveUrl: "",
-    image: trophyImage,
-    gallery: [trophyImage],
-    status: "Ongoing",
-    duration: "Varies per tournament",
+      "Designed and implemented individual training programs aimed at improving technical ability, agility, and in-game intelligence. Over 25 players benefited from these personalized futsal sessions.",
+    image: footballCampImage,
+    gallery: [footballCampImage],
+    status: "Completed",
+    duration: "2020–2024",
+    location: "Isfahan, Iran",
+  },
+  {
+    id: 5,
+    name: "Coach at the Football and Futsal Academy",
+    shortDescription:
+      "Trained over 50 youth players in school and academy programs.",
+    description:
+      "Delivered structured football and futsal training for more than 50 children and teenagers, focusing on teamwork, discipline, technique, and enjoyment of the sport. Successfully developed young talent through school programs.",
+    image: footballCampImage,
+    gallery: [footballCampImage],
+    status: "Completed",
+    duration: "2019–2021",
+    location: "Isfahan, Iran",
+  },
+  {
+    id: 6,
+    name: "Futsal Training for Underprivileged Children",
+    shortDescription:
+      "Social project offering futsal coaching to children from disadvantaged backgrounds.",
+    description:
+      "Led a training initiative for children in vulnerable situations, teaching fundamental futsal skills while promoting self-confidence, teamwork, and social inclusion through sport.",
+    image: footballCampImage,
+    gallery: [footballCampImage],
+    status: "Completed",
+    duration: "2019–2020",
+    location: "Isfahan, Iran",
   },
 ];
 
-export const experience = [
-  {
-    id: 1,
-    title: "Football & Futsal Coach",
-    company: "Local Sports Academy",
-    location: "Isfahan, Iran",
-    startDate: "Jan 2019",
-    endDate: "Present",
-    description: [
-      "Coaching athletes aged 10-25 in football and futsal",
-      "Preparing players for provincial and national competitions",
-      "Developing training programs focused on technical skills, tactics, and physical conditioning",
-      "Mentoring young players and fostering teamwork and discipline",
-    ],
-  },
-  {
-    id: 2,
-    title: "Private Football Coach",
-    company: "Self-Employed",
-    location: "Isfahan, Iran",
-    startDate: "Mar 2018",
-    endDate: "Dec 2018",
-    description: [
-      "Conducted one-on-one coaching sessions for youth players",
-      "Created personalized training plans and monitored progress",
-      "Provided technical, tactical, and physical guidance",
-    ],
-  },
-];
+// export const experience = [
+//   {
+//     id: 1,
+//     title: "Football & Futsal Coach",
+//     company: "Local Sports Academy",
+//     location: "Isfahan, Iran",
+//     startDate: "Jan 2019",
+//     endDate: "Present",
+//     description: [
+//       "Coaching athletes aged 10-25 in football and futsal",
+//       "Preparing players for provincial and national competitions",
+//       "Developing training programs focused on technical skills, tactics, and physical conditioning",
+//       "Mentoring young players and fostering teamwork and discipline",
+//     ],
+//   },
+//   {
+//     id: 2,
+//     title: "Private Football Coach",
+//     company: "Self-Employed",
+//     location: "Isfahan, Iran",
+//     startDate: "Mar 2018",
+//     endDate: "Dec 2018",
+//     description: [
+//       "Conducted one-on-one coaching sessions for youth players",
+//       "Created personalized training plans and monitored progress",
+//       "Provided technical, tactical, and physical guidance",
+//     ],
+//   },
+// ];
 
-export const education = [
-  {
-    id: 1,
-    degree: "Football & Futsal Coaching License – Level 1",
-    school: "Iran Football Federation",
-    location: "Isfahan, Iran",
-    graduationDate: "Feb 2019",
-    description: "",
-  },
-  {
-    id: 2,
-    degree: "Sports Science Workshops & Webinars",
-    school: "Various Online & Local Programs",
-    location: "Iran",
-    graduationDate: "2020–2024",
-    description:
-      "Topics included strength & conditioning, injury prevention, sports psychology, and youth development.",
-  },
-];
+// export const education = [
+//   {
+//     id: 1,
+//     degree: "Football & Futsal Coaching License – Level 1",
+//     school: "Iran Football Federation",
+//     location: "Isfahan, Iran",
+//     graduationDate: "Feb 2019",
+//     description: "",
+//   },
+//   {
+//     id: 2,
+//     degree: "Sports Science Workshops & Webinars",
+//     school: "Various Online & Local Programs",
+//     location: "Iran",
+//     graduationDate: "2020–2024",
+//     description:
+//       "Topics included strength & conditioning, injury prevention, sports psychology, and youth development.",
+//   },
+// ];

@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { projects } from "../data/portfolio";
 import { FaClock } from "react-icons/fa";
 
-const ProjectsSection: React.FC = () => {
+const ExperienceSection: React.FC = () => {
   const { t } = useTranslation();
 
   // Display only first 3 projects on home page
@@ -48,7 +48,7 @@ const ProjectsSection: React.FC = () => {
                         if (fallback) fallback.style.display = "flex";
                       }}
                     />
-                  ) : null} 
+                  ) : null}
                 </div>
 
                 <div className="p-6">
@@ -82,4 +82,4 @@ const ProjectsSection: React.FC = () => {
   );
 };
 
-export default ProjectsSection;
+export default ExperienceSection;
